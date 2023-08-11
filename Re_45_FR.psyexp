@@ -1,0 +1,1062 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="ptb" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="pix" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1920, 1080]" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$(1.0000, 1.0000, 1.0000)" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="retrieval_45" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="MIDDLE_BUTTON" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="practice_instr">
+      <ImageComponent name="map_b">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="MAPB_USE.jpeg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="map_b" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-300, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(1188, 650)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+      </ImageComponent>
+      <PolygonComponent name="pr_re_loc">
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="" valType="color"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="black" valType="color"/>
+        <Param name="lineWidth" updates="constant" val="5" valType="num"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="pr_re_loc" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="set every repeat" val="$[pr_loc_x, pr_loc_y]" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="None" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(61, 60)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="vertices" updates="constant" val="" valType="list"/>
+      </PolygonComponent>
+      <ImageComponent name="prObj1">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$pr_obj1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="prObj1" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(650, 405)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(300, 250)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="prObj2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$pr_obj2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="prObj2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(650, 135)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(300, 250)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="prObj3">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$pr_obj3" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="prObj3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(650, -135)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(300, 250)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="prObj4">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$pr_obj4" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="prObj4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(650, -405)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(300, 250)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="pr_Respm">
+        <Param name="allowedKeys" updates="constant" val="'1', '2', '3', '4'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="pr_Respm" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="pr_trials">
+      <ImageComponent name="pr">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="practice_retrieval.png" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="pr" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="allowedKeys" updates="constant" val="'1','2','3','4'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="start">
+      <TextComponent name="text_4">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="25" valType="num"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="This is the end of practice. Please, press space to proceed to the main part." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="800" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="start_exp"/>
+    <Routine name="retr">
+      <ImageComponent name="map">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="map_gray.png" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="map" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-300, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="$(1188, 650)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+      </ImageComponent>
+      <PolygonComponent name="polygon_2">
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="fillColor" updates="constant" val="" valType="color"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="black" valType="color"/>
+        <Param name="lineWidth" updates="constant" val="5" valType="num"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="polygon_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="set every repeat" val="$[x_coord, y_coord]" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(61, 60)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+        <Param name="vertices" updates="constant" val="" valType="list"/>
+      </PolygonComponent>
+      <ImageComponent name="obj_1">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$obj1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="obj_1" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(650, 405)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(300, 250)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="obj_2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$obj2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="obj_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(650, 135)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(300, 250)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="obj_3">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$obj3" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="obj_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(650, -135)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(300, 250)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="obj_4">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$obj4" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="obj_4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(650, -405)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(300, 250)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="resp_m">
+        <Param name="allowedKeys" updates="constant" val="'1','2','3','4'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="$cor_ans" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="resp_m" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="retr_fix">
+      <TextComponent name="text_7">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="100" valType="num"/>
+        <Param name="name" updates="None" val="text_7" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instr">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="22" valType="num"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="*You will see a map with a highlighted location on the left of the screen.&amp;#10;&amp;#10;*There will be 4 art objects in black and white on the right of the screen.&amp;#10;&amp;#10;*Please choose the object that you think was presented with the highlighted location in the first part of the experiment.&amp;#10;&amp;#10;*After making a choice, please indicate the color and the frame of the chosen object.&amp;#10;&amp;#10;*After that, please indicate how sure you were about your responses.&amp;#10;&amp;#10;*To proceed, press 'space'.&amp;#10;" valType="str"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="800" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="pr_conf">
+      <TextComponent name="text_3">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="32" valType="num"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0,180)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Confidence" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_8">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="22" valType="num"/>
+        <Param name="name" updates="None" val="text_8" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 120)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Right press any key from 1 to 5 to give a response." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="800" valType="num"/>
+      </TextComponent>
+      <ImageComponent name="conf_rating">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="confidence_rating.png" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="conf_rating" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -50)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(780, 170)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="pr_Confresp">
+        <Param name="allowedKeys" updates="constant" val="'1','2','3','4','5'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="pr_Confresp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="fix">
+      <TextComponent name="text_5">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="100" valType="num"/>
+        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="conf">
+      <TextComponent name="text_6">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="30" valType="num"/>
+        <Param name="name" updates="None" val="text_6" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 170)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Confidence" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <ImageComponent name="image_2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="confidence_rating.png" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 25)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(780, 150)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="resp_conf">
+        <Param name="allowedKeys" updates="constant" val="'1','2','3','4','5'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="resp_conf" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="text_9">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="22" valType="num"/>
+        <Param name="name" updates="None" val="text_9" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="This is the end of the experiment. &amp;#10;&amp;#10;Thank you for participating! &amp;#10;If you have any questions or comments about the study, feel free to ask the experimenter!&amp;#10;&amp;#10;To exit, press 'space'." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="800" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_6">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_6" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="pr_open">
+      <TextComponent name="instr_open">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="22" valType="num"/>
+        <Param name="name" updates="None" val="instr_open" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 150)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Please indicate the color and the type of frame of the chosen image.&amp;#10;Example: purple, straight; purple, wiggly; purple, null." valType="str"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="800" valType="num"/>
+      </TextComponent>
+      <TextboxComponent name="pr_open_resp">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="autoLog" updates="constant" val="True" valType="bool"/>
+        <Param name="bold" updates="constant" val="False" valType="bool"/>
+        <Param name="borderColor" updates="constant" val="None" valType="color"/>
+        <Param name="borderWidth" updates="constant" val="1000" valType="num"/>
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="editable" updates="constant" val="True" valType="bool"/>
+        <Param name="fillColor" updates="constant" val="None" valType="color"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="italic" updates="constant" val="False" valType="bool"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="20" valType="num"/>
+        <Param name="lineSpacing" updates="constant" val="1.0" valType="num"/>
+        <Param name="name" updates="None" val="pr_open_resp" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="padding" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(None, None)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="" valType="str"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+      </TextboxComponent>
+      <TextComponent name="pr_endButton">
+        <Param name="color" updates="constant" val="$[-0.1765, -0.1765, -0.1765]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="25" valType="num"/>
+        <Param name="name" updates="None" val="pr_endButton" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -400)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Click here to continue" valType="str"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="800" valType="num"/>
+      </TextComponent>
+      <MouseComponent name="pr_click">
+        <Param name="clickable" updates="constant" val="endButton" valType="list"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="pr_click" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="on click" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="open_q">
+      <TextComponent name="instr_openq">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="22" valType="num"/>
+        <Param name="name" updates="None" val="instr_openq" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 150)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Please indicate the color and the type of frame of the chosen image.&amp;#10;Example: purple, straight; purple, wiggly; purple, null." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="800" valType="num"/>
+      </TextComponent>
+      <TextboxComponent name="openq_resp">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="autoLog" updates="constant" val="True" valType="bool"/>
+        <Param name="bold" updates="constant" val="False" valType="bool"/>
+        <Param name="borderColor" updates="constant" val="None" valType="color"/>
+        <Param name="borderWidth" updates="constant" val="800" valType="num"/>
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="editable" updates="constant" val="True" valType="bool"/>
+        <Param name="fillColor" updates="constant" val="None" valType="color"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="italic" updates="constant" val="False" valType="bool"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="20" valType="num"/>
+        <Param name="lineSpacing" updates="constant" val="1.0" valType="num"/>
+        <Param name="name" updates="None" val="openq_resp" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="padding" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(None, None)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </TextboxComponent>
+      <TextComponent name="endButton">
+        <Param name="color" updates="constant" val="$[-0.1765, -0.1765, -0.1765]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="25" valType="num"/>
+        <Param name="name" updates="None" val="endButton" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -400)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Click here to continue" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <MouseComponent name="eB_click">
+        <Param name="clickable" updates="constant" val="endButton" valType="list"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="eB_click" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="on click" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instr"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'pr_obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\practice\\034.gif', 'pr_loc_x': -729, 'pr_loc_y': 33, 'pr_obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\practice\\034.gif', 'pr_obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\practice\\064.gif', 'pr_obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\practice\\114.gif', 'pr_obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\practice\\142.gif', 'pr_cor_ans': 1}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Practice_V2.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="practice_instr"/>
+    <Routine name="pr_open"/>
+    <Routine name="pr_conf"/>
+    <Routine name="fix"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="start"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\149.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -663, 'y_coord': 98, 'sector': 'LALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\149.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\216.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\206.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\102.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'trial': 1, 'cor_ans': 1}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\096.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -861, 'y_coord': 163, 'sector': 'LALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\110.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\096.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\195.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\188.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'trial': 2, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\196.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -729, 'y_coord': 163, 'sector': 'LALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\148.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\090.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\196.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\012.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'trial': 3, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\255.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -795, 'y_coord': 98, 'sector': 'LALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\227.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\218.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\240.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\255.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'trial': 4, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\256.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -597, 'y_coord': 293, 'sector': 'LALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\002.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\253.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\081.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\256.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'trial': 5, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\005.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -597, 'y_coord': -97, 'sector': 'MALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\120.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\254.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\005.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\191.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'trial': 6, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\226.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -531, 'y_coord': -32, 'sector': 'MALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\047.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\226.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\204.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\018.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'trial': 7, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\091.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -729, 'y_coord': 33, 'sector': 'MALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\091.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\014.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\172.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\194.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'trial': 8, 'cor_ans': 1}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\258.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -861, 'y_coord': 33, 'sector': 'MALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\258.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\221.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\206.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\239.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'trial': 9, 'cor_ans': 1}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\093.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -663, 'y_coord': -32, 'sector': 'MALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\259.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\093.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\110.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\198.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'trial': 10, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\176.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -531, 'y_coord': -293, 'sector': 'HALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\188.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\175.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\176.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\189.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'trial': 11, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\244.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -795, 'y_coord': -162, 'sector': 'HALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\216.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\102.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\195.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\244.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'trial': 12, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\183.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -663, 'y_coord': -293, 'sector': 'HALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\090.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\216.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\183.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\012.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'trial': 13, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\205.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -597, 'y_coord': -227, 'sector': 'HALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\240.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\205.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\218.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\227.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'trial': 14, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\040.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'x_coord': -729, 'y_coord': -227, 'sector': 'HALM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\040.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\254.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\204.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\253.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'trial': 15, 'cor_ans': 1}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\206.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'x_coord': -333, 'y_coord': 163, 'sector': 'LAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\206.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\110.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\102.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\149.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'trial': 1, 'cor_ans': 1}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\090.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'x_coord': -201, 'y_coord': 293, 'sector': 'LAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\176.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\090.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\096.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\218.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'trial': 2, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\253.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'x_coord': -399, 'y_coord': 98, 'sector': 'LAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\254.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\012.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\253.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\196.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'trial': 3, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\191.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'x_coord': -267, 'y_coord': 98, 'sector': 'LAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\255.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\081.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\005.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\191.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'trial': 4, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\018.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'x_coord': -135, 'y_coord': 228, 'sector': 'LAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\018.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\047.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\120.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\256.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'trial': 5, 'cor_ans': 1}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\188.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'x_coord': -333, 'y_coord': -97, 'sector': 'MAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\195.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\188.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\226.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\244.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'trial': 6, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\148.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'x_coord': -465, 'y_coord': 33, 'sector': 'MAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\183.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\194.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\148.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\240.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'trial': 7, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\002.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'x_coord': -267, 'y_coord': -32, 'sector': 'MAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\239.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\149.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\091.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\002.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'trial': 8, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\221.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'x_coord': -135, 'y_coord': -32, 'sector': 'MAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\014.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\258.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\110.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\221.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'trial': 9, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\198.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'x_coord': -399, 'y_coord': -32, 'sector': 'MAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\205.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\096.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\198.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\102.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'trial': 10, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\216.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'x_coord': -267, 'y_coord': -293, 'sector': 'HAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\093.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\216.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\012.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\259.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'trial': 11, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\227.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'x_coord': -135, 'y_coord': -162, 'sector': 'HAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\227.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\196.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\040.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\254.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'trial': 12, 'cor_ans': 1}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\204.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'x_coord': -201, 'y_coord': -227, 'sector': 'HAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\047.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\204.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\189.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\176.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'trial': 13, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\172.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'x_coord': -465, 'y_coord': -227, 'sector': 'HAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\102.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\005.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\172.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\244.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'trial': 14, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\175.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'x_coord': -399, 'y_coord': -293, 'sector': 'HAMM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\226.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\218.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\081.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\175.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'trial': 15, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\195.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'x_coord': -69, 'y_coord': 293, 'sector': 'LAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\149.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\216.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\195.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\005.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'trial': 1, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\240.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'x_coord': 261, 'y_coord': 98, 'sector': 'LAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\188.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\206.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\176.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\240.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'trial': 2, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\014.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'x_coord': 129, 'y_coord': 98, 'sector': 'LAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\148.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\244.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\096.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\014.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'trial': 3, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\259.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'x_coord': -3, 'y_coord': 228, 'sector': 'LAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\226.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\090.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\259.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\227.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'trial': 4, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\189.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'x_coord': 63, 'y_coord': 293, 'sector': 'LAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\253.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\189.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\091.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\183.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'trial': 5, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\102.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'x_coord': 63, 'y_coord': -97, 'sector': 'MAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\102.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\196.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\204.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\002.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'trial': 6, 'cor_ans': 1}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\218.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'x_coord': 195, 'y_coord': -97, 'sector': 'MAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\205.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\218.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\191.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\258.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'trial': 7, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\254.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'x_coord': 195, 'y_coord': 33, 'sector': 'MAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\172.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\093.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\254.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\018.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'trial': 8, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\047.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'x_coord': 129, 'y_coord': -32, 'sector': 'MAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\175.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\005.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\255.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\047.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'trial': 9, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\194.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'x_coord': -69, 'y_coord': 33, 'sector': 'MAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\194.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\206.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\226.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\216.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'trial': 10, 'cor_ans': 1}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\110.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'x_coord': 195, 'y_coord': -227, 'sector': 'HAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\110.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\091.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\227.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\256.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'trial': 11, 'cor_ans': 1}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\012.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'x_coord': -69, 'y_coord': -227, 'sector': 'HAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\090.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\040.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\221.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\012.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame.png', 'trial': 12, 'cor_ans': 4}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\081.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'x_coord': 261, 'y_coord': -293, 'sector': 'HAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\149.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\198.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\081.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\176.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_frame2.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'trial': 13, 'cor_ans': 3}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\120.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'x_coord': -3, 'y_coord': -162, 'sector': 'HAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\244.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\120.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\253.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\188.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_frame.png', 'trial': 14, 'cor_ans': 2}, {'obj': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\239.gif', 'mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'x_coord': 129, 'y_coord': -162, 'sector': 'HAHM', 'obj1': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\239.gif', 'obj2': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\148.gif', 'obj3': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\096.gif', 'obj4': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Script\\183.gif', 'obj1_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\pink_noframe.png', 'obj2_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\grey_noframe.png', 'obj3_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\blue_frame2.png', 'obj4_mask': 'C:\\Users\\saral\\Google Диск\\0-Year 2\\Thesis\\Internship\\Experiment\\Objects\\Masks\\yellow_frame.png', 'trial': 15, 'cor_ans': 1}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Retrieval_45_rand.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="retr"/>
+    <Routine name="open_q"/>
+    <Routine name="conf"/>
+    <Routine name="retr_fix"/>
+    <LoopTerminator name="trials_2"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>
